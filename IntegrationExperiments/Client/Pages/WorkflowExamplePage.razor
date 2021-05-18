@@ -1,0 +1,28 @@
+﻿@page "/WorkflowExample"
+
+<h3>WorkflowExamplePage</h3>
+
+<div class="row">
+
+    <div class="btn btn-sm btn-outline-primary" @onclick="OnBtnClick">Click</div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-sm-6">
+
+        <div class="list-group">
+
+            @foreach(var item in _responses)
+            {
+                <div class="list-group-item">@item</div>
+            }
+
+        </div>
+
+    </div>
+
+</div>
+
+
