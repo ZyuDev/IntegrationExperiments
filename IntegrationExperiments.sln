@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationExperiments.Server", "IntegrationExperiments\Server\IntegrationExperiments.Server.csproj", "{7C5522BE-8B9B-4060-9C50-73F1CAE3D525}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationExperiments.Server", "IntegrationExperiments\Server\IntegrationExperiments.Server.csproj", "{7C5522BE-8B9B-4060-9C50-73F1CAE3D525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationExperiments.Client", "IntegrationExperiments\Client\IntegrationExperiments.Client.csproj", "{D809C194-D83C-4072-B4DD-51CF83746507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationExperiments.Client", "IntegrationExperiments\Client\IntegrationExperiments.Client.csproj", "{D809C194-D83C-4072-B4DD-51CF83746507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationExperiments.Shared", "IntegrationExperiments\Shared\IntegrationExperiments.Shared.csproj", "{3AFDA432-3216-4C00-9CC8-CADD9FA2934A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationExperiments.Shared", "IntegrationExperiments\Shared\IntegrationExperiments.Shared.csproj", "{3AFDA432-3216-4C00-9CC8-CADD9FA2934A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationExperiments.Core", "IntegrationExperiments.Core\IntegrationExperiments.Core.csproj", "{08269A31-5779-4636-8104-F87AF5954006}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3AFDA432-3216-4C00-9CC8-CADD9FA2934A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AFDA432-3216-4C00-9CC8-CADD9FA2934A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AFDA432-3216-4C00-9CC8-CADD9FA2934A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08269A31-5779-4636-8104-F87AF5954006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08269A31-5779-4636-8104-F87AF5954006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08269A31-5779-4636-8104-F87AF5954006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08269A31-5779-4636-8104-F87AF5954006}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
